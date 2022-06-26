@@ -1,0 +1,103 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/22/22/25/abs-1850926__480.jpg');
+}
+
+.left{
+    
+    color: white;
+    display: inline-block;
+    position: absolute;
+    left: 39px;
+    top: 18px;
+}
+.btn{
+    margin: 0px 10px;
+    background-color: black;
+    color:white;
+    padding: 5px 14px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 17px;
+}
+.btn:hover{
+    background-color: gray;
+
+}
+.container{
+    border: 2px solid white;
+    margin: 106px 80px;
+    padding: 75px;
+    width:33%;
+    border-radius:28px;
+}
+.mid{
+    
+    color: white;
+    display: block;
+    width:40%;
+    margin: 18px auto;
+}
+
+.right{
+    
+    color: white;
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 18px;
+}
+
+.navbar li{
+    display:inline-block;
+    font-size: 22px;
+}
+
+.navbar {
+    display:inline-block;
+}
+
+.navbar li a{
+      color:white;
+      text-decoration: none;
+      padding: 25px 3px;
+      margin-right:18px;
+      
+}
+.navbar li a:hover, .navbar li a.active{
+     text-decoration: underline;
+     color:gray;
+}
+.left img{
+    width:80px;
+    filter:invert(100%);
+    margin-top: 10px;
+}
+
+.form-group input{
+     text-align: center;
+     display: block;
+     width: 508px;
+     padding: 1px;
+     border: 2px solid black;
+     margin: 11px auto;
+     font-size: 25px;
+     border-radius: 8px;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display:block;
+    width:108%;
+    margin: 20px auto;
+    
+}
